@@ -1,6 +1,6 @@
 import React from 'react'
-import firstimage from '/assets/first-DHjeVHTo.png'
-import secondImage from '/assets/second-DI60NgKv.png'
+// import firstimage from '/assets/first-DHjeVHTo.png'
+// import secondImage from '/assets/second-DI60NgKv.png'
 const AboutSection = () => {
     return (
       <section className="bg-gradient-to-b from-blue-900 to-blue-800 py-20">
@@ -15,7 +15,7 @@ const AboutSection = () => {
       
             <img
               class=""
-              src={firstimage}
+              src='/assets/first-DHjeVHTo.png'
               alt="Ashwath"
               className="h-44 bg-white rounded-full p-2 px-11  object-cover"
             />
@@ -30,7 +30,7 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-6">
             <img
               
-              src={secondImage}
+              src='/assets/second-DI60NgKv.png'
               alt="Nicole"
               className="h-44 bg-white rounded-full p-2  object-cover"
             />
