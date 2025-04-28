@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
+import logo from '../assets/logo-Gl0EhSXn.svg'
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeLink, setActiveLink] = useState('#home')
@@ -17,7 +18,7 @@ const Header = () => {
         <header className=" pt-5  shadow-sm">
             <div className='w-full flex justify-between items-center container mx-auto px-4 sm:px-6 lg:px-8 md:h-20 h-16'>
                 <div className="text-2xl font-bold text-primary">
-                    <img src='/src/assets/logo-Gl0EhSXn.svg'></img>
+                    <img src={logo}></img>
                 </div>
 
                 <button

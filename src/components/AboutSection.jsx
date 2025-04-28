@@ -1,5 +1,6 @@
 import React from 'react'
-
+import firstimage from '../assets/first-DHjeVHTo.png'
+import secondImage from '../assets/second-DI60NgKv.png'
 const AboutSection = () => {
     return (
       <section className="bg-gradient-to-b from-blue-900 to-blue-800 py-20">
@@ -13,10 +14,10 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-6 ">
       
             <img
-              class="h-44 bg-white rounded-full p-2 px-11"
-              src="/src/assets/first-DHjeVHTo.png" 
+              class=""
+              src={firstimage}
               alt="Ashwath"
-              className="w-24 h-24 rounded-full object-cover"
+              className="h-44 bg-white rounded-full p-2 px-11  object-cover"
             />
             <div className="text-left">
               <h3 className="text-white font-semibold text-lg">Ashwath</h3>
@@ -28,10 +29,10 @@ const AboutSection = () => {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <img
-              class='h-44 bg-white rounded-full p-2'
-              src="/src/assets/second-DI60NgKv.png" 
+              
+              src={secondImage}
               alt="Nicole"
-              className="w-24 h-24 rounded-full object-cover"
+              className="h-44 bg-white rounded-full p-2  object-cover"
             />
             <div className="text-left">
               <h3 className="text-white font-semibold text-lg">Nicole</h3>
@@ -40,8 +41,6 @@ const AboutSection = () => {
               </p>
             </div>
           </div>
-    
-          {/* CTA Link */}
           <div className="mt-8 text-blue-300 text-sm">
             Follow our LinkedIn page →
           </div>

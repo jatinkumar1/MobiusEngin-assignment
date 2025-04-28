@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header';
+import image from '../assets/book-CzIxDrMa.png';
 const HeroSection = () => {
     return (
         <section className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-800">
@@ -24,7 +25,7 @@ const HeroSection = () => {
                 <div className="relative w-full  h-[292px]  md:w-5/12 mt-12 md:mt-0 flex justify-center">
                     
 
-                    <img src='/src/assets/book-CzIxDrMa.png' alt="Hiring Trends 2024/2025" className="w-[200px] md:w-[200px] h-[300px] rounded-lg shadow-lg" />
+                    <img src={image} alt="Hiring Trends 2024/2025" className="w-[200px] md:w-[200px] h-[300px] rounded-lg shadow-lg" />
                     <div className="hidden lg:visible  absolute mr-8 right-16 -bottom-9 border-[1px] border-white bg-transparent backdrop-blur-sm rounded-full p-7">
 
                     
