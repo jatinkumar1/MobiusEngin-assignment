@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
-import logo from '../assets/logo-Gl0EhSXn.svg'
+import logo from '/assets/logo-Gl0EhSXn.svg'
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [activeLink, setActiveLink] = useState('#home')

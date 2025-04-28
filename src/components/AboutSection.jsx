@@ -1,6 +1,6 @@
 import React from 'react'
-import firstimage from '../assets/first-DHjeVHTo.png'
-import secondImage from '../assets/second-DI60NgKv.png'
+import firstimage from '/assets/first-DHjeVHTo.png'
+import secondImage from '/assets/second-DI60NgKv.png'
 const AboutSection = () => {
     return (
       <section className="bg-gradient-to-b from-blue-900 to-blue-800 py-20">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header';
-import image from '../assets/book-CzIxDrMa.png';
+import image from '/assets/book-CzIxDrMa.png';
 const HeroSection = () => {
     return (
         <section className="bg-gradient-to-r from-blue-300 via-blue-600 to-blue-800">
